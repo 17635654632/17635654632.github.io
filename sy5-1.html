@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>计算器</title>
+    <script>
+        function calculateAverage() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+            var num3 = parseFloat(document.getElementById("num3").value);
+            var average = (num1 + num2 + num3) / 3;
+            alert("平均值为: " + average.toFixed(2));
+        }
+    </script>
+</head>
+<body>
+    <h2>计算平均值</h2>
+    <label for="num1">数字1:</label>
+    <input type="text" id="num1"><br><br>
+    <label for="num2">数字2:</label>
+    <input type="text" id="num2"><br><br>
+    <label for="num3">数字3:</label>
+    <input type="text" id="num3"><br><br>
+    <button onclick="calculateAverage()">计算</button>
+</body>
+</html>
