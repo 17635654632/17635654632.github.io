@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>开关灯</title>
+    <script>
+        function turnOnLight() {
+            document.getElementById("light").src = "../Pictures/Saved Pictures/黄灯.png";
+        }
+
+        function turnOffLight() {
+            document.getElementById("light").src = "../Pictures/Saved Pictures/灰灯.png.jpg" ;
+        }
+    </script>
+</head>
+<body>
+<h2>开关灯</h2>
+    <img id="light" src="../Pictures/Saved Pictures/灰灯.png.jpg" ><br><br>
+<button onclick="turnOnLight()">开灯</button>
+<button onclick="turnOffLight()">关灯</button>
+</body>
+</html>
