@@ -8,10 +8,11 @@
     <meta name="author" content="">
     <title>个人主页</title>
     <!-- CSS -->
-    <link href="../Documents/Tencent Files/1430131826/FileRecv/MobileFile/1.06ZF08/1.06ZF08/1.06ZF08/css/bootstrap.css" rel="stylesheet">
-    <link href="../Documents/Tencent Files/1430131826/FileRecv/MobileFile/1.06ZF08/1.06ZF08/1.06ZF08/css/blog.css" rel="stylesheet">
+    
   </head>
-  <body>
+  <body><link href="../style/bootstrap.css" rel="stylesheet">
+    <link href="../style/blog.css" rel="stylesheet">
+
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
@@ -101,16 +102,12 @@
     </div>
     <a href="" class="btt">顶部</a>
     <!-- Js-->
-    <script src="../Documents/Tencent Files/1430131826/FileRecv/MobileFile/1.06ZF08/1.06ZF08/1.06ZF08/js/jquery-1.9.1.min.js"></script>
-    <script src="../Documents/Tencent Files/1430131826/FileRecv/MobileFile/1.06ZF08/1.06ZF08/1.06ZF08/js/bootstrap.min.js"></script>
-    <script src="../Documents/Tencent Files/1430131826/FileRecv/MobileFile/1.06ZF08/1.06ZF08/1.06ZF08/js/plugin.js"></script>
+    <script src="../style/jquery-1.9.1.min.js"></script>
+    <script src="../style/bootstrap.min.js"></script>
+    <script src="../style/plugin.js"></script>
+
   <style>
-.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
-</style>
-<div class="copyrights" id="links20210126">
-	Collect from <a href="http://www.cssmoban.com/"  title="网站模板">模板之家</a>
-	<a href="https://www.chazidian.com/"  title="查字典">查字典</a>
-</div>
+
 </body>
 </html>
 
